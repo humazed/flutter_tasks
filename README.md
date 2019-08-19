@@ -7,13 +7,14 @@ A new Flutter application.
 [![Demo](art/flutter_tasks_screen_shot.png?raw=true)](art/flutter_tasks_swalk_throw.webm?raw=true)
 
 
-This project is a starting point for a Flutter application.
+#### Third Party Libraries Used
 
-A few resources to get you started if this is your first Flutter project:
+  * [provider][1] A dependency injection system built with widgets for widgets.
+  * [rxdart][2] used to create reactive block as it more powerful than dart streams.
+  * [moor_flutter][3] Moor is an easy to use, reactive persistence library for Flutter apps..
+  * [fast_qr_reader_view][4] to read task qr code.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[1]: https://pub.dev/packages/provider
+[2]: https://pub.dev/packages/rxdart
+[3]: https://pub.dev/packages/moor_flutter
+[4]: https://pub.dev/packages/fast_qr_reader_view
