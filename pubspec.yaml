@@ -1,0 +1,51 @@
+name: flutter_tasks
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+# flutter packages pub run build_runner watch --delete-conflicting-outputs
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  shared_preferences: ^0.5.3+1
+  flutter_toolbox: ^2.3.0
+
+  provider: ^3.0.0
+  rxdart: ^0.22.1+1
+  kt_dart: ^0.6.2
+  moor_flutter: ^1.6.0
+
+  fast_qr_reader_view:
+    git:
+      url: git://github.com/facundomedica/fast_qr_reader_view.git
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.1.3
+  moor_generator: ^1.6.0+2
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    # assets begin
+    - assets/images/ic_scanning.png
+    # assets end
+
+  fonts:
+    - family: tomica
+      fonts:
+        - asset: assets/fonts/tomica_light.ttf
+        - asset: assets/fonts/tomica_regular.ttf
