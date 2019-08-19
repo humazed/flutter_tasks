@@ -1,6 +1,6 @@
 # flutter_tasks
 
-A new Flutter application.
+To-do app, using provider and bloc pattern.
 
 ## walkthrough (click to see the video)
 
