@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_toolbox/flutter_toolbox.dart';
 
 import 'intro/intro.dart';
 
@@ -28,7 +27,8 @@ class SplashScreenState extends State<SplashScreen> {
   }
 
   void init() async {
-    push(context, IntroScreen());
+    Navigator.pushReplacement(
+        context, MaterialPageRoute(builder: (context) => IntroScreen()));
   }
 
   @override
