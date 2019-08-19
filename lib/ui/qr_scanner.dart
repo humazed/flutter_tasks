@@ -11,6 +11,7 @@ class QrScannerScreen extends StatefulWidget {
 
   static Future<String> scanQrCode(BuildContext context) async {
     try {
+      await requestCameraPermission();
       final cameras = await availableCameras();
 
       var results = await Navigator.of(context).push(
