@@ -2,7 +2,10 @@
 
 A new Flutter application.
 
-## Getting Started
+## walkthrough (click to see the video)
+
+[![Demo](art/flutter_tasks_screen_shot.png?raw=true)](art/flutter_tasks_swalk_throw.webm?raw=true)
+
 
 This project is a starting point for a Flutter application.
 
