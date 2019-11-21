@@ -7,7 +7,7 @@ part of 'database.dart';
 // **************************************************************************
 
 // ignore_for_file: unnecessary_brace_in_string_interps
-class TaskEntry extends DataClass implements Insertable<TaskEntry> {
+class   TaskEntry extends DataClass implements Insertable<TaskEntry> {
   final int id;
   final String name;
   final String description;

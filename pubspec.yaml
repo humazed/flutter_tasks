@@ -12,11 +12,11 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^0.1.2
-  shared_preferences: ^0.5.3+1
-  flutter_toolbox: ^2.3.0
+  shared_preferences: ^0.5.4+5
+  flutter_toolbox: ^3.5.1
 
-  provider: ^3.0.0
-  rxdart: ^0.22.1+1
+  provider: ^3.1.0+1
+  rxdart: ^0.22.6
   kt_dart: ^0.6.2
   moor_flutter: ^1.6.0
 
